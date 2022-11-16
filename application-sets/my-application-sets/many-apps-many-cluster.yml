@@ -20,9 +20,11 @@ spec:
       name: '{{path.basename}}-{{name}}'
     spec:
       syncPolicy:
+        syncOptions:
+          - CreateNamespace=true
         automated:
-              auto-sync: true
-              self-heal: true
+        auto-sync: true
+        selfHeal: true
               createNamespace: true    
       project: 'default'
       source:
