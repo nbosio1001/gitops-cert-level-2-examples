@@ -26,7 +26,7 @@ spec:
         auto-sync: true
         selfHeal: true
               createNamespace: true    
-      project: 'default'
+      project: default
       source:
         repoURL: https://github.com/codefresh-contrib/gitops-cert-level-2-examples.git
         targetRevision: HEAD
